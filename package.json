@@ -1,0 +1,25 @@
+{
+  "name": "Liri_Node_App_ASP",
+  "version": "1.0.0",
+  "description": "* Introduction to the LIRI application:",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePackPater/Liri_Node_App_ASP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePackPater/Liri_Node_App_ASP/issues"
+  },
+  "homepage": "https://github.com/ThePackPater/Liri_Node_App_ASP#readme"
+}
