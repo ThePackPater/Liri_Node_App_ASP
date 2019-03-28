@@ -10,7 +10,19 @@
       
  * Directions for using the LIRI Interface:
  
- 
+    *enter the command line in the Liri_Node_App_ASP folder console.
+
+    *type NODE app.js (PRESS ENTER).
+
+    *Select "Movie" "Band" or "Song" when highlighted (PRESS ENTER).
+
+    *Name the item to be researched.
+
+    LIRI will return: 
+
+      *today's date
+
+      *Selection Title and Pertinent Info about Selection
  
  
  * Screenshots (or a GIF/Video) of the typical user flow of the application using Spotify, Bands in Town, and OMDB APIs.

@@ -1,5 +1,6 @@
 var inquirer = require("inquirer");
 var axios = require("axios");
+//var Spotify = require('node-spotify-api');
 
 
 inquirer
@@ -8,7 +9,7 @@ inquirer
         {
             type: "list",
             message: "What would you like to look up?",
-            choices: ["Movie", "Band", "Song"],
+            choices: ["MovieThis", "ConcertThisBand", "SpotifyThisSong", "DoWhatItSays"],
             name: "userChoice"
         },
 
@@ -22,22 +23,21 @@ inquirer
 
 .then(function(inquirerResponse) {
 
-    console.log("\nOk I'll research the " + inquirerResponse.userChoice + ": " + inquirerResponse.choiceName);
+    console.log("\nResearching for: " + inquirerResponse.userChoice + ": " + inquirerResponse.choiceName);
     console.log("One moment please!\n");
 
     switch (inquirerResponse.userChoice) {
-        case "Band":
-            //console.log("workingBand");
+        case "ConcertThisBand":
             pickBand();
             break;
-        case "Movie":
-            //console.log("workingMovie");
+        case "MovieThis":
             pickMovie();
             break;
-            // case "Song":
-            //     var songName = inquirerResponse.choiceName;
+            // case "SpotifyThisSong":
             //     pickSong();
             //     break;
+            //  case:" DoWhatItSays"
+            //     iwantItthatWAY();
             // default:
             //     console.log("\nI don't recognize your request. Please try again.\n")
     }
@@ -53,8 +53,9 @@ inquirer
 
         axios.get(queryUrlM).then(
             function(response) {
+                //console.log(response);
                 console.log("Today's Date: " + response.headers.date);
-                console.log("Your Movie: " + response.data.Title + "\nRated: " + response.data.Rated + "\nDate released: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbrating + "\nMovie plot: " + response.data.Plot + "\nWebsite: " + response.data.Website);
+                console.log("Your Movie: " + response.data.Title + "\nRated: " + response.data.Rated + "\nDate released: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nCast: " + response.data.Actors + "\nMovie plot: " + response.data.Plot + "\nWebsite: " + response.data.Website);
             })
     }
 
@@ -69,8 +70,29 @@ inquirer
             function(response) {
                 //console.log(response);
                 console.log("Today's Date: " + response.headers.date);
-                console.log("Your Band/Artist: " + response.data.name + "\n" + "Fans tracking this artist: " + response.data.tracker_count + "\n" + "Upcoming events: " + response.data.upcoming_event_count + "\n" + response.data.url);
+                console.log("Your Band/Artist: " + response.data.name + "\n" + "Fans tracking this artist: " + response.data.tracker_count + "\n" + "Upcoming events: " + response.data.upcoming_event_count + "\n" + "Ctrl +  left click on the link to see tour dates: " + response.data.url);
             })
     }
+
+    // function pickSong() {
+
+    //     var songName = inquirerResponse.choiceName;
+
+    //     var spotify = new Spotify({
+    //         id: < your spotify client id > ,
+    //         secret: < your spotify client secret >
+    //     });
+
+    //     spotify.search({
+    //         type: 'track',
+    //         query: 'All the Small Things'
+    //     }, function(err, data) {
+    //         if (err) {
+    //             return console.log('Error occurred: ' + err);
+    //         }
+
+    //         console.log(data);
+    //     });
+    // }
 
 });
