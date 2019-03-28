@@ -1,6 +1,7 @@
 var inquirer = require("inquirer");
 var axios = require("axios");
 
+
 inquirer
     .prompt([
 
@@ -69,7 +70,6 @@ inquirer
             function(response) {
                 console.log("Your band info: " + response);
             })
-
     }
 
 });
