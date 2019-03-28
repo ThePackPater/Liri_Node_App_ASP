@@ -45,30 +45,31 @@ inquirer
     function pickMovie() {
 
         var movieName = inquirerResponse.choiceName;
-        console.log(movieName);
+        //console.log(movieName);
 
         var queryUrlM = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
 
-        console.log(queryUrlM);
+        //console.log(queryUrlM);
 
         axios.get(queryUrlM).then(
             function(response) {
-                console.log("Your Movie info: " + response.data.Year, response.data.Plot);
+                console.log("Today's Date: " + response.headers.date);
+                console.log("Your Movie: " + response.data.Title + "\nRated: " + response.data.Rated + "\nDate released: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbrating + "\nMovie plot: " + response.data.Plot + "\nWebsite: " + response.data.Website);
             })
     }
 
     function pickBand() {
 
         var bandName = inquirerResponse.choiceName;
-        console.log(bandName);
+        //console.log(bandName);
 
         var queryURLB = "https://rest.bandsintown.com/artists/" + bandName + "?app_id=codingbootcamp";
 
-        console.log(queryURLB);
-
         axios.get(queryURLB).then(
             function(response) {
-                console.log("Your band info: " + response);
+                //console.log(response);
+                console.log("Today's Date: " + response.headers.date);
+                console.log("Your Band/Artist: " + response.data.name + "\n" + "Fans tracking this artist: " + response.data.tracker_count + "\n" + "Upcoming events: " + response.data.upcoming_event_count + "\n" + response.data.url);
             })
     }
 
