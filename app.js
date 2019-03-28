@@ -26,15 +26,15 @@ inquirer
     console.log("One moment please!\n");
 
     switch (inquirerResponse.userChoice) {
-        case "band":
-            console.log(workingBand);
+        case "Band":
+            //console.log("workingBand");
             pickBand();
             break;
-        case "movie":
-            console.log(workingMovie);
+        case "Movie":
+            //console.log("workingMovie");
             pickMovie();
             break;
-            // case "song":
+            // case "Song":
             //     var songName = inquirerResponse.choiceName;
             //     pickSong();
             //     break;
