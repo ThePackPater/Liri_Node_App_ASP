@@ -1,99 +1,75 @@
-// var inquirer = require("inquirer");
-
-// inquirer
-//     .prompt([
-
-//         {
-//             type: "list",
-//             message: "What would you like to look up?",
-//             choices: ["Movie", "Band", "Song"],
-//             name: "userChoice"
-//         },
-
-//         {
-//             type: "input",
-//             message: "What's the name?",
-//             name: "choiceName"
-//         },
-
-
-
-//     ])
-
-
-// .then(function(inquirerResponse) {
-
-
-//     if (inquirerResponse.userChoice === "band");
-
-//     switch (whatchaNeed) {
-
-//         case bandName:
-//             inquirerResponse.userChoice === "band"
-//             break;
-//         case songName:
-//             inquirerResponse.userChoice === "song"
-//             break;
-//         case movieName:
-//             inquirerResponse.userChoice === "movie"
-//         default:
-
-
-//             console.log("\nOk I'll research the " + inquirerResponse.userChoice + inquirerResponse.choiceName);
-//             console.log("One moment please!\n");
-
-
-//     }
-
-
-
-
+var inquirer = require("inquirer");
 var axios = require("axios");
 
-var nodeA = process.argv[2];
+inquirer
+    .prompt([
 
-var nodeB = process.argv[3]
+        {
+            type: "list",
+            message: "What would you like to look up?",
+            choices: ["Movie", "Band", "Song"],
+            name: "userChoice"
+        },
 
-var movieName = "";
+        {
+            type: "input",
+            message: "What's the name?",
+            name: "choiceName"
+        },
 
-for (var i = 2; i < nodeA.length; i++) {
+    ])
 
-    if (i > 2 && i < nodeA.length) {
-        movieName = movieName + "+" + nodeA[i];
-    } else {
-        movieName += nodeA[i];
+.then(function(inquirerResponse) {
+
+    console.log("\nOk I'll research the " + inquirerResponse.userChoice + ": " + inquirerResponse.choiceName);
+    console.log("One moment please!\n");
+
+    switch (inquirerResponse.userChoice) {
+        case "band":
+            console.log(workingBand);
+            pickBand();
+            break;
+        case "movie":
+            console.log(workingMovie);
+            pickMovie();
+            break;
+            // case "song":
+            //     var songName = inquirerResponse.choiceName;
+            //     pickSong();
+            //     break;
+            // default:
+            //     console.log("\nI don't recognize your request. Please try again.\n")
+    }
+
+    function pickMovie() {
+
+        var movieName = inquirerResponse.choiceName;
+        console.log(movieName);
+
+        var queryUrlM = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+
+        console.log(queryUrlM);
+
+        axios.get(queryUrlM).then(
+            function(response) {
+                console.log("Your Movie info: " + response.data.Year, response.data.Plot);
+            })
+    }
+
+    function pickBand() {
+
+        var bandName = inquirerResponse.choiceName;
+        console.log(bandName);
+
+        var queryURLB = "https://rest.bandsintown.com/artists/" + bandName + "?app_id=codingbootcamp";
+
+        console.log(queryURLB);
+
+        axios.get(queryURLB).then(
+            function(response) {
+                console.log("Your band info: " + response);
+            })
 
     }
-}
 
-var queryUrlM = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
-
-console.log(queryUrlM);
-
-axios.get(queryUrlM).then(
-    function(response) {
-        console.log("Your Movie info: " + response.data.Year, response.data.Plot);
-    }
-);
-
-var bandName = "";
-
-for (var i = 2; i < nodeB.length; i++) {
-
-    if (i > 2 && i < nodeB.length) {
-        bandName = bandName + "+" + nodeB[i];
-    } else {
-        bandName += nodeB[i];
-    }
-}
-
-var queryURLB = "https://rest.bandsintown.com/artists/" + bandName + "?app_id=codingbootcamp";
-
-console.log(queryURLB);
-
-
-axios.get(queryURLB).then(
-    function(response) {
-        console.log("Your band info: " + response);
-    }
-);
+});
