@@ -1,6 +1,9 @@
 var inquirer = require("inquirer");
 var axios = require("axios");
+var fs = require("fs");
 //var Spotify = require('node-spotify-api');
+
+var divider = "\n------------------------------------------------------------\n\n";
 
 
 inquirer
@@ -56,7 +59,12 @@ inquirer
                 //console.log(response);
                 console.log("Today's Date: " + response.headers.date);
                 console.log("Your Movie: " + response.data.Title + "\nRated: " + response.data.Rated + "\nDate released: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nCast: " + response.data.Actors + "\nMovie plot: " + response.data.Plot + "\nWebsite: " + response.data.Website);
+
+                fs.appendFile("log.txt", "Date: " + response.headers.date + "\n" + "Your Movie: " + response.data.Title + "\nRated: " + response.data.Rated + "\nDate released: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating + "\nCast: " + response.data.Actors + "\nMovie plot: " + response.data.Plot + "\nWebsite: " + response.data.Website + divider, function(err) {
+                    if (err) throw err;
+                })
             })
+
     }
 
     function pickBand() {
@@ -71,6 +79,10 @@ inquirer
                 //console.log(response);
                 console.log("Today's Date: " + response.headers.date);
                 console.log("Your Band/Artist: " + response.data.name + "\n" + "Fans tracking this artist: " + response.data.tracker_count + "\n" + "Upcoming events: " + response.data.upcoming_event_count + "\n" + "Ctrl +  left click on the link to see tour dates: " + response.data.url);
+
+                fs.appendFile("log.txt", "Date: " + response.headers.date + "\n" + "Your Band/Artist: " + response.data.name + "\n" + "Fans tracking this artist: " + response.data.tracker_count + "\n" + "Upcoming events: " + response.data.upcoming_event_count + "\n" + "Ctrl +  left click on the link to see tour dates: " + response.data.url + divider, function(err) {
+                    if (err) throw err;
+                })
             })
     }
 
