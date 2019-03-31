@@ -2,6 +2,8 @@
 
 # Liri_Node_App_ASP
 
+*PseudoCode FlowChart https://code2flow.com/uyw719
+
 * Introduction to the LIRI application: 
 
     LIRI is a _Language_ Interpretation and Recognition Interface, LIRI, a command line node app that takes in parameters and gives the user back data. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies referencing the following APIs.
