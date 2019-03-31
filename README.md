@@ -1,3 +1,5 @@
+
+
 # Liri_Node_App_ASP
 
 * Introduction to the LIRI application: 
@@ -10,19 +12,22 @@
       
  * Directions for using the LIRI Interface:
  
-    *enter the command line in the Liri_Node_App_ASP folder console.
+    *enter the console command line in the Liri_Node_App_ASP folder.
 
-    *type NODE app.js (PRESS ENTER).
+    *type "node app.js" (PRESS ENTER).
 
-    *Select "Movie" "Band" or "Song" when highlighted (PRESS ENTER).
+    *Select "MovieThis" "ConcertThisBand" or "SpotifyThisSong" (W/ up/down arrow keys) when highlighted (PRESS ENTER).
 
-    *Name the item to be researched.
+    *Type the name of the selection to be researched. (Movie name, Band name, or Song name)
+
+      *if you do not name the selection (PRESS ENTER) your selection will be made for you.
+
+      *if you choose the option DoWhatItSays you will be given a new favorite song!
 
     LIRI will return: 
-
-      *today's date
-
+      
       *Selection Title and Pertinent Info about Selection
  
- 
- * Screenshots (or a GIF/Video) of the typical user flow of the application using Spotify, Bands in Town, and OMDB APIs.
+ *(Video) of the typical user flow of the application using Spotify, Bands in Town, and OMDB APIs.
+
+ crtl + click to follow link: https://drive.google.com/file/d/103EWj-bKT2foTpZ617tK8eguGHQubgRK/view

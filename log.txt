@@ -1,3 +1,77 @@
+
+Date: Sat, 30 Mar 2019 16:53:30 GMTYour Movie: Pump Up the Volume
+Rated: R
+Date released: 1990
+IMDB Rating: 7.2
+Cast: Anthony Lucero, Andy Romano, Keith Stuart Thayer, Cheryl Pollak
+Movie plot: Mark runs a pirate radio station and causes an uproar when he speaks his mind and enthralls fellow teens.
+Website: N/A
+------------------------------------------------------------
+
+Date: Sat, 30 Mar 2019 16:54:50 GMT
+Your Band/Artist: Suicidal Tendencies
+Fans tracking this artist: 300799
+Upcoming events: 7
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/1156?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Date: Sat, 30 Mar 2019 21:04:21 GMT
+Your Movie: Men at Work
+Rated: PG-13
+Date released: 1990
+IMDB Rating: 5.9
+Cast: Charlie Sheen, Emilio Estevez, Leslie Hope, Keith David
+Movie plot: Two garbage men uncover a conspiracy involving illegal toxic waste dumping and decide to bring the whole operation down.
+Website: N/A
+------------------------------------------------------------
+
+Date: Sat, 30 Mar 2019 21:04:45 GMT
+Your Movie: Get Out
+Rated: R
+Date released: 2017
+IMDB Rating: 7.7
+Cast: Daniel Kaluuya, Allison Williams, Catherine Keener, Bradley Whitford
+Movie plot: A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.
+Website: http://www.getoutfilm.com/
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 02:28:46 GMT
+Your Band/Artist: The Dead Milkmen
+Fans tracking this artist: 59348
+Upcoming events: 0
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/21333?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Artist: The Dead Milkmen
+Song: Punk Rock Girl
+Album : Beelzebubba
+Preview URL : https://p.scdn.co/mp3-preview/443a363e6521d6dca8dd2c11854d4c0af41d7a54?cid=b425ada3229145aaa5c20b19aa5c541a
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 14:57:48 GMT
+Your Movie: Seven Samurai
+Rated: Not Rated
+Date released: 1954
+IMDB Rating: 8.7
+Cast: Toshirô Mifune, Takashi Shimura, Keiko Tsushima, Yukiko Shimazaki
+Movie plot: A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.
+Website: N/A
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 14:58:52 GMT
+Your Band/Artist: Henry Rollins
+Fans tracking this artist: 65109
+Upcoming events: 1
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/46646?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Artist: Ramones
+Song: Blitzkrieg Bop - 2016 Remastered Version
+Album : Ramones - 40th Anniversary Deluxe Edition (Remastered)
+Preview URL : https://p.scdn.co/mp3-preview/9ce6132e4c21f483a69c76cb84c67d6d9921b011?cid=b425ada3229145aaa5c20b19aa5c541a
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:12:37 GMT
 Your Movie: Jaws
 Rated: PG
 Date released: 1975
@@ -7,25 +81,92 @@ Movie plot: When a killer shark unleashes chaos on a beach resort, it's up to a 
 Website: http://www.jaws25.com/
 ------------------------------------------------------------
 
-Your Band/Artist: The Dead Milkmen
-Fans tracking this artist: 59348
-Upcoming events: 0
-Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/21333?came_from=267&app_id=codingbootcamp
+Date: Sun, 31 Mar 2019 19:15:39 GMT
+Your Movie: Meet the Spartans
+Rated: PG-13
+Date released: 2008
+IMDB Rating: 2.7
+Cast: Sean Maguire, Carmen Electra, Ken Davitian, Kevin Sorbo
+Movie plot: A spoof of 300 (2006) and many other movies, TV series/shows/commercials, video games and celebrities. King Leonidas of Sparta and his army of 12 go to war against Xerxes of Persia to fight to the death for Sparta's freedom.
+Website: http://www.meetthespartans.com
 ------------------------------------------------------------
 
-Today's Date: Sat, 30 Mar 2019 16:53:30 GMTYour Movie: Pump Up the Volume
+Date: Sun, 31 Mar 2019 19:21:16 GMT
+Your Movie: Jaws
+Rated: PG
+Date released: 1975
+IMDB Rating: 8.0
+Cast: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+Movie plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.
+Website: http://www.jaws25.com/
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:37:48 GMT
+Your Movie: The Godfather
 Rated: R
-Date released: 1990
-IMDB Rating: 7.2
-Cast: Anthony Lucero, Andy Romano, Keith Stuart Thayer, Cheryl Pollak
-Movie plot: Mark runs a pirate radio station and causes an uproar when he speaks his mind and enthralls fellow teens.
-Website: N/A
+Date released: 1972
+IMDB Rating: 9.2
+Cast: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+Movie plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Website: http://www.thegodfather.com
 ------------------------------------------------------------
 
-Today's Date: Sat, 30 Mar 2019 16:54:50 GMT
-Your Band/Artist: Suicidal Tendencies
-Fans tracking this artist: 300799
-Upcoming events: 7
-Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/1156?came_from=267&app_id=codingbootcamp
+Date: Sun, 31 Mar 2019 19:38:29 GMT
+Your Band/Artist: Ramones
+Fans tracking this artist: 996853
+Upcoming events: 0
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/745?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Artist: Dead Kennedys
+Song: Buzzbomb
+Album : Plastic Surgery Disasters/In God We Trust, Inc.
+Preview URL : https://p.scdn.co/mp3-preview/f58dd8383facf4b8f8c8cd5e4305405eac99b584?cid=b425ada3229145aaa5c20b19aa5c541a
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:48:29 GMT
+Your Movie: Jaws
+Rated: PG
+Date released: 1975
+IMDB Rating: 8.0
+Cast: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+Movie plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.
+Website: http://www.jaws25.com/
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:48:49 GMT
+Your Band/Artist: Pixies
+Fans tracking this artist: 996964
+Upcoming events: 10
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/417?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Artist: Dead Kennedys
+Song: Buzzbomb
+Album : Plastic Surgery Disasters/In God We Trust, Inc.
+Preview URL : https://p.scdn.co/mp3-preview/f58dd8383facf4b8f8c8cd5e4305405eac99b584?cid=b425ada3229145aaa5c20b19aa5c541a
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:51:43 GMT
+Your Movie: The Matrix
+Rated: R
+Date released: 1999
+IMDB Rating: 8.7
+Cast: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+Movie plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Website: http://www.whatisthematrix.com
+------------------------------------------------------------
+
+Date: Sun, 31 Mar 2019 19:52:00 GMT
+Your Band/Artist: Ramones
+Fans tracking this artist: 996853
+Upcoming events: 0
+Ctrl +  left click on the link to see tour dates: https://www.bandsintown.com/a/745?came_from=267&app_id=codingbootcamp
+------------------------------------------------------------
+
+Artist: The Dead Milkmen
+Song: Punk Rock Girl
+Album : Beelzebubba
+Preview URL : https://p.scdn.co/mp3-preview/443a363e6521d6dca8dd2c11854d4c0af41d7a54?cid=b425ada3229145aaa5c20b19aa5c541a
 ------------------------------------------------------------
 
